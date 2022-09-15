@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  client:
+    build: crud-client
+    image: mythilisivasamy/admin-type-form
+    ports:
+      - '8000:8000'
